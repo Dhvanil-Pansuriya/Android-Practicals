@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String enteredText= editTextText.getText().toString();
                 Toast.makeText(MainActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
         });
